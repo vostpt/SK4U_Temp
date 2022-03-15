@@ -40,10 +40,10 @@ server = app.server
 # -----------------------------------------------
 
 app.layout = dbc.Container(
-	
-		layout.header_row,
-		brand.logos,
-	 
+		[
+			layout.header_row,
+			brand.logos
+	 	],
 	
     fluid=True,
 ) # END CONTAINER AND LAYOUT 
